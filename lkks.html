@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKKS KAB KUNINGAN</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            animation: fadeIn 2s ease-in;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid;
+        }
+        header img {
+            height: 200px;
+        }
+        nav {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+section.welcome {
+    background: url(img/k30.jpeg)
+     center/cover no-repeat;
+     padding: 200px 10px;
+     color: whitesmoke;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 2; transform: translateY(0);}
+}
+.kegiatan {
+    background-color: white;
+    border-left: 5px solid #2e8b57;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    box-shadow: 0 20px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.kegiatan.hover {
+    transform: translateY(-5px);
+}
+.kegiatan h3 {
+    margin: 0 0 10px;
+    color: #2e8b57;
+}
+.kegiatan img {
+    width: 100%;
+    max-height: 1000px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logolkks.png" alt="">
+        <center><h1>LKKS Kabupaten Kuningan</h1>
+            <p>Lembaga kesejahteraan sosial</p></center>
+        <img src="img/Logo_Kabupaten_kuningan-removebg-preview.png" alt="">
+    </header>
+    <nav>
+        <a href="lkks.html" style="color: black;">BERANDA</a>
+        <a href="plkks.htmL">PROFIL</a>
+        <a href="programlkks.html">PROGRAM</a>
+        <a href="galeri.html">GALERI</a>
+        <a href="kolkks.html">KONTAK</a>
+    </nav>
+    <section class="welcome">
+        <h2>SELAMAT DATANG DI WEBSITE RESMI</h2>
+        <h1>LKKS Kabupaten Kuningan</h1>
+        <p>kami hadir untuk mewujudkan kesejahteraan sosial yang adil dan merata</p>
+    </section>
+    <hr>
+    <main>
+        <h2 style="color: #2e8b57;">BERITA KEGIATAN LKKS</h2>
+        <div class="kegiatan">
+            <h3>PEMBAGIAN BANTUAN SOSIAL DI GRAHA YATIM & DHU'AFA</h3>
+            <p>LKKS Membagikan bantuan sosial ke panti asuhan yatim piyatu GRAHA YATIM & DHU'AFA</p>
+            <img src="img/k23.jpeg" alt="">
+        </div>
+        <div class="kegiatan">
+            <h3>SENTUHAN PEDULI</h3>
+            <p>Simbol perhatian dan sentuhan empati kepada warga yang mengalami kesulitan</p>
+            <img src="img/k71.jpeg" alt="">
+            </div>
+            <div class="kegiatan">
+                <h3>RAMADHAN BERBAGI</h3>
+                <p>LKKS berbagi dibulan suci ramdhan</p>
+                <img src="img/kegiatan5.jpeg" alt="">
+
+            </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            animation: fadeIn 2s ease-in;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid;
+        }
+        header img {
+            height: 200px;
+        }
+        nav {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding:  15px;
+    margin-top: 30px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.tree {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.level {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.box {
+    background: white;
+    border: 2px solid #006666;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.line {
+    height: 40px;
+    width: 2px;
+    background-color: #333;
+    margin: -20px auto;
+}
+.line :horizontal {
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    position: relative;
+    top: -20px;
+}
+.tree-wrapper {
+    overflow-x: auto;
+    padding: 10px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 2; transform: translateY(0);}
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logolkks.png" alt="">
+        <div class="judul">
+            <h1>Profil Lembaga kerja sejahtera sosial</h1>
+        </div>
+        <img src="img/Logo_Kabupaten_kuningan-removebg-preview.png" alt="">
+    </header>
+    <nav>
+       <a href="lkks.html">BERANDA</a>
+        <a href="plkks.html" style="color: black;"></a>PROFIL</a>
+        <a href="programlkks.html">PROGRAM</a>
+        <a href="galeri.html">GALERI</a>
+        <a href="kolkks.html">KONTAK</a> 
+    </nav>
+    <div class="content">
+        <h1>I. VISI DAN MISI LKKS</h1>
+        <h2>Visi</h2>
+        <p>Terwujudnya kesejahteraan sosial masyarakat yang inklusif, berkeadilan, dan berkelanjutan menuju Kuningan MELESAT.</p>
+        <h2>MISI</h2>
+        <ol>
+            <li>Meningkatkan koordinasi dan sinergi antara pemerintah, organisasi sosial, dunia usaha, dan masyarakat dalam upaya peningkatan program kesejahteraan sosial.</li>
+            <li>Mendorong pemberdayaan masyarakat untuk lebih mandiri dalam mengatasi permasalahan sosial</li>
+            <li>Mengembangkan program kesejahteraan sosial dengan memperkuat nilai-nilai keagamaan yang berbasis potensi dan kearifan lokal.</li>
+            <li>Mengoptimalkan peran serta masyarakat dalam penanganan masalah sosial melalui kemitraan dan jejaring sosial.</li>
+            <li>Mengoptimalkan pemantauan dan evaluasi program kesejahteraan sosial untuk meningkatkan kualitas layanan bagi masyarakat membutuhkan.</li>
+            <li>Memberikan perlindungan dan kesejahteraan sosial bagi masyarakat yang membutuhkan.</li>
+            <li>Meningkatkan kualitas hidup masyarakat yang kurang mampu.</li>
+            <li>Memberikan akses kepada masyarakat yang pemerlu pelayanan kesejahteraan sosial (PPKS).</li>
+            <li>Memberdayakan komunitas pemerlu pelayanan kesejahteraan sosial(PPKS) dalam menghadapi tantangan sosial.</li>
+        </ol>
+    </div>
+    <hr>
+    <div class="content2">
+    <h1>II. TUGAS DAN FUNGSI LKKS</h1>
+    <h2>Tugas LKKS</h2>
+    <ol>
+        <li>Mengkoordinasikan organisasi/lembaga sosial.</li>
+        <li>Membina/ organisasi/lembaga sosial.</li>
+        <li>Mengembangkan model pelayanan kesejahteraan sosial.</li>
+        <li>Menyelenggarakan forum komunikasi dan konsultasi penyelenggaraan kesejahteraan sosial.</li>
+        <li>Melakukan advokasi sosial dan advokasi anggaran terhadap organisasi/lembaga sosial.</li>
+    </ol>
+    <hr>
+    <h2>Fungsi LKKS</h2>
+    <ol>
+        <li>Sebagai wadah koordinasi, komunikasi, konsultasi, advokasi dan kerja sama serta operasional dalam menyelenggarakan usaha kesejahteraan sosial.</li>
+        <li>Menangani individu, keluarga dan kelompok masarakat yang terpinggirkan, kurang mampu, menghadapi krisis, mengalami disfungsi sosial melalui penyelenggaraan usaha kesejahteraan sosial.</li>
+    </ol>
+    </div>
+    <hr>
+    <h2>Struktur organisasi</h2>
+    <div class="tree-wrapper">
+        <div class="tree">
+            <div class="level">
+                <div class="box">
+                    <strong>Ketua Umum</strong><br>
+                    Hj.Ela Helayati
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="level">
+                <div class="box">Wakil Ketua I <br>Drs. Dudy Budiana, M.Si</div>
+                <div class="box">Wakil Ketua II  <br>Drs. Hj. Tuti Rusiliawati, MM</div>
+                <div class="box">Wakil Ketua III <br>Wibawa Gumbira, S.Sos., M.Pd</div>
+            </div>
+            <div class="line-horizontal"></div>
+            <div class="level">
+                <div class="box">Sekretaris <br>Sri Mulyati, S.Pd., M.M.Pd</div>
+                <div class="box">Wakil Sekretaris <br>Supriadi, SE</div>
+                <div class="box">Bendahara <br>Jenab, S.Pd</div>
+                <div class="box">Wakil Bendahara <br>Hj. Neni Susilongtyas</div>
+            </div>
+            <div class="line-horizontal"></div>
+            <div class="level">
+                <div class="box">Sekretariat I<br>Unan, S.Pd., M.MPd</div>
+                <div class="box">Sekreatriat II <br>Entis Sutrisna, A.Md</div>
+                <div class="box">Sekretariat III <br>Sulaeman, S.Kom., M.AP</div>
+            </div>
+        </div>
+        <div class="line-horizontal"></div>
+        <div class="level">
+            <div class="box">
+                Rehabilitasi Sosial: <br>
+                -Ence Hadiat Rohanda <br>
+                -dr. H. Agah Nugraha <br>
+                -Adhe Suryaningsih
+            </div>
+            <div class="box">
+                Pemberdayaan Parsomas: <br>
+                -Juju Junaedi <br>
+                -Erhan Herdianto <br>
+                -Didi Ahyana, S.Sos
+            </div>
+            <div class="box">
+                Bantuan & Perlindungan Sosial: <br>
+                -dr. Hj. Eva Maya, M <br>
+                -dr. Yanuar Firdaus <br>
+                -Kiai Udi Sahudi
+            </div>
+            <div class="box">
+                Humas & Organisasi: <br>
+                -Hartono, SH <br>
+                -Hj. Iis Siti Aisyah <br>
+                -Nana Suhendra
+            </div>
+            <div class="box">
+                Pengembangan Sosial: <br>
+                -Drs. Yudi Nugraha <br>
+                -M. Apip Rofi'i <br>
+                -Cici Nuryaningsih
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 DPPKBP3A Kabupaten Kuningan
+    </footer>
+</body>
+</html>
